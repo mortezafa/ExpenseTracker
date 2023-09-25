@@ -5,7 +5,6 @@
 
 import SwiftUI
 
-
 struct ExpenseTrackerView: View {
 
     @State var newExpenseBottomSheet = false
@@ -14,7 +13,6 @@ struct ExpenseTrackerView: View {
         Expense(purchaseDate: Date(), category: .food, note: "Today was 10% off", amount: 1.10, image: Image(systemName: "fork.knife.circle.fill")),
         Expense(purchaseDate: Date(), category: .food, note: "Made with tofu", amount: 6, image: Image(systemName: "fork.knife.circle.fill")),
     ]
-
 
     var addButton: some View {
         Button {
